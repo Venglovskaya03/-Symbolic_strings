@@ -1,1 +1,11 @@
-62
+a=input('Введите ФИО:').split()
+  print(a[1][0]+'.'+a[2][0]+'.'+a[0])
+_________
+s=input('Введите адрес:').split('/')
+for i in s:
+  print(i)
+_________
+a=input()
+b=input()
+c=input()
+  print(a.replace(b,c)
