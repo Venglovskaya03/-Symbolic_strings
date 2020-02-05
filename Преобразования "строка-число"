@@ -1,1 +1,25 @@
-63
+a, b, c=map(int,input('Введите выражение:').split(+)
+s=int a+int b+int c
+  print('Ответ:, s')
+__________
+s=0
+z=1
+k=0
+a=input()
+for i in range(len(a)):
+  if a[i] in ('+', '-'):
+    if z==1:
+      s+=int(a[k:i])
+    else: s-=int(a[k:i])
+    if a[i]='-':
+      z=0
+    else: z=1
+    k=i+1
+    if z=1:
+      s+=int(a[k:])
+    else:
+      s+=int(a[k:])
+    
+    
+        
+      
