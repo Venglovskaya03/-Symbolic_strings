@@ -1,0 +1,8 @@
+as=[]
+print('Введите строки для сортировки:')
+while True:
+  sl=input()
+  if sl=='':break
+  as.append(sl)
+as.sort()
+print(as)
